@@ -1,0 +1,136 @@
+Here are some popular sample API endpoints.
+
+https://fake-json-api.mock.beeceptor.com/users - Returns a list of ten users in JSON format. Every time you hit this, you get a new set of users.
+https://fake-json-api.mock.beeceptor.com/companies - Get a list of ten random companies.
+https://dummy-json.mock.beeceptor.com/todos - A sample Rest API to get a list of To Do tasks.
+https://dummy-json.mock.beeceptor.com/posts - A sample JSON Rest API to get a list of blog posts.
+https://dummy-json.mock.beeceptor.com/continents - A sample JSON API to get continents' information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let obj = { first: "divya" ,
+    print : function(){ console.log(this.first) } 
+} 
+obj.print()
+
+
+function sum(a = 5, b = 7)
+{ console.log(a+b) }
+ sum(null, 20)
+
+//  sum(1)(2)(3)(4)() //10
+
+//  function exactSum(a,b){
+//     return a + b ;
+//  }
+
+//  function sum(a){
+//     let sum = 0;
+//     sum = exactSum(a,b)
+//  }
+
+
+ const a = () => { console.log('a called');  }
+  const b = () => { console.log('b called'); }  
+//   {console.log('hi'); 
+//   setTimeout(()=>{a()},5000)
+//   setTimeout(()=>{b()},20000)
+ // takes 5 secnds   a(); 
+ // takes 20 seconds   b(); 
+//   console.log("ennd");
+//  }
+
+//  /*
+//  hi
+//  end
+//  a callled
+//  b ccalled
+//  */
+
+
+//  let promiseOne = new Promise((resolve,reject)=>{
+//     let condition = true ; 
+//     if(condition){
+//         resolve();
+//     }
+//     else{
+//         reject();
+//     }
+//  })
+
+
+
+//  async function promiseText () {
+//     return "divya";
+//  }
+
+//  function a () {
+//     let temp = "aaa";
+//     function b (){
+//         console.log(temp);
+//     }
+//  }
+
+ let arr = [1,2,3,[4,[5,6]]];
+
+ function fllatArray (arr) {
+    let newArray = arr.reduce((acc,current)=>{
+      return acc.concat(current)
+    },[])
+    return newArray;
+ }
+
+ console.log(fllatArray(arr));
+
+
+ let mulArray = [[3, 5], [1, 7], [12, 9]]
+
+let newArrayItem = mulArray.reduce(function(accumulator, curValue) {
+
+    return accumulator.concat(curValue)
+
+  },[]
+
+)
+
+console.log(newArrayItem);

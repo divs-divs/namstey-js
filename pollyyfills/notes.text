@@ -1,0 +1,3 @@
+Pollyfills are the piece of code that allow old browsers to use the modern functionality.
+
+Pollyfills allows to have cross browser compatibility.

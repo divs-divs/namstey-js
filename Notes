@@ -1,0 +1,31 @@
+Javascript is synchronous single threaded language.
+// Async - Async is a keyword that transforms the normal function into the asyn function that will always return a Promise
+Await - Await is a keyword that waits for the promise to be executed and it can onlly be used inside the async functions.
+
+Async and await generally being used to handlle the promises.
+
+We kknow that JS is synchronous singlle thhreaded language but to make it behave llike asynchronous llangugage
+3 concepts came into picture.
+
+ 1. Event loop
+ 2. CCallback Queue
+ 3. call stack with global Execution context
+ 
+1.Callback - callback hell structure also known as pyramid of doom
+  -- Issues with calllback 
+     1. Callback hell
+     2. Inversion control.(we loose the control on the code)
+      ex- function createorder(cart,function(){
+        makePayment()
+      })
+      - show we dont know when the createOrder api will execute successfully or it will execute or not.
+2.promises - came into picture to avoid callback hell 
+3.Async/await - came into picture to avoid promise chaining
+
+
+Async and await are the features in javascript that helps us t work withh asynchronoous ccode and make them readadlle and
+allsoo easy to manage.
+
+Asyncc functiions are the special functions that allways returns promise and inside the async function
+you can use the await kkeywrd to pause the excutionnn until the promise iis settledd.
+

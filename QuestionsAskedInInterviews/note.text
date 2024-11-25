@@ -1,0 +1,12 @@
+1. ways to create promise
+2. rreact fibre 
+3. react portal
+4. How many virtual DOMs we can have
+5. Program to flatten array
+6. Array fllat method
+
+
+// variables declared  with var keyword has global scope 
+and because of closures even if settimeout will removed from its originnal scope it wwwill still remember the refrence to variablle i
+and on the other hand, variables wiith are blocck scoped  so for each iteartion, i will be new variable.
+
